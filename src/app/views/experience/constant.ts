@@ -11,6 +11,9 @@
 
 const experience: any = [
   {
+    title: 'Cybersecurity | Studi Independen MSIB Batch 6',
+    company: 'Celerates School',
+    date: 'February 2024 - Now',
     data: [
       {
         id: 1,
@@ -49,6 +52,9 @@ const experience: any = [
     ],
   },
   {
+    title: 'Web Developer',
+    company: 'Freelancer',
+    date: 'November 2023 - Now',
     data: [
       {
         id: 1,
@@ -88,6 +94,9 @@ const experience: any = [
     ],
   },
   {
+    title: 'UI / UX Designer',
+    company: 'Digipages',
+    date: 'September 2022 - January 2024',
     data: [
       {
         id: 1,
@@ -101,6 +110,10 @@ const experience: any = [
     ],
   },
   {
+    title:
+      'Project-Based Virtual Intern : UI / UX Designer Niagahoster x Rakamin Academy',
+    company: 'Niagahoster',
+    date: 'August 2023 - September 2023',
     data: [
       {
         id: 1,
@@ -133,6 +146,9 @@ const experience: any = [
     ],
   },
   {
+    title: 'Dicoding For University',
+    company: 'Dicoding',
+    date: 'May 2023 - August 2023',
     data: [
       {
         id: 1,
@@ -157,6 +173,10 @@ const experience: any = [
     ],
   },
   {
+    title:
+      'Project-Based Virtual Intern : Frontend Developer Core Initiative Studio x Rakamin Academy',
+    company: 'Core Initiative Studio',
+    date: 'April 2023 - May 2023',
     data: [
       {
         id: 1,

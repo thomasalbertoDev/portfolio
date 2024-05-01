@@ -4,10 +4,15 @@ import Link from 'next/link';
 import projects from '@/app/views/projects/constant';
 import { Icon } from '@iconify/react/dist/iconify.js';
 import { usePathname } from 'next/navigation';
+import { useState } from 'react';
 
 export default function ProjectsView() {
   const pathname = usePathname();
   const isProjectsPage = pathname === '/projects';
+
+  const [numProjectsToShow, setNumProjectsToShow] = useState(
+    isProjectsPage ? projects.length : 4
+  );
 
   return (
     <div id="project" className="container">
@@ -33,8 +38,9 @@ export default function ProjectsView() {
       </div>
       <hr className="my-3 border-gray-900" />
 
+      {/* Data nya */}
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 mt-10">
-        {projects.map((project: any) => (
+        {projects.slice(0, numProjectsToShow).map((project: any) => (
           <div key={project.id}>
             <div className="rounded-xl bg-gray-900 p-8 h-auto">
               <div className="flex items-center justify-between mb-6">
