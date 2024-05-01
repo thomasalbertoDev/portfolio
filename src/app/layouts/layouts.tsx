@@ -1,4 +1,5 @@
-import Navbar from '@/app/fragments/Navbar';
+import Navbar from '@/app/fragments/navbar';
+import Footer from '@/app/fragments/footer';
 
 interface Propstype {
   children: React.ReactNode;
@@ -7,10 +8,11 @@ interface Propstype {
 const Layouts = (props: Propstype) => {
   const { children } = props;
   return (
-    <>
+    <div className="py-6">
       <Navbar />
       {children}
-    </>
+      <Footer />
+    </div>
   );
 };
 
