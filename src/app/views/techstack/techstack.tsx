@@ -1,7 +1,7 @@
 import techStack from './constant';
 import { Icon } from '@iconify/react/dist/iconify.js';
 
-export default function TechStack() {
+export default function TechStackView() {
   return (
     <div>
       <h1 className="font-bold text-3xl">Tech Stack</h1>

@@ -1,10 +1,10 @@
 'use client';
 
 import Link from 'next/link';
-import Layouts from '@/app/layouts/layouts';
-import Projects from './projects/page';
-import TechStack from './techstack/page';
-import Experience from './experience/page';
+import Layouts from './layouts/layouts';
+import ProjectsView from './views/projects/projects';
+import TechStackView from './views/techstack/techstack';
+import ExperienceView from './views/experience/experience';
 
 export default function Home() {
   return (
@@ -35,15 +35,15 @@ export default function Home() {
         </section>
 
         <section id="techstack" className="mt-24">
-          <TechStack />
+          <TechStackView />
         </section>
 
         <section id="experience" className="experience mt-24">
-          <Experience />
+          <ExperienceView />
         </section>
 
         <section id="projects" className="projects mt-24">
-          <Projects />
+          <ProjectsView />
         </section>
       </Layouts>
     </div>
