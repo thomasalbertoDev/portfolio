@@ -30,7 +30,7 @@ export default function Home() {
             Cybersecurity.
           </p>
           <button className="bg-blue-600 hover:bg-blue-800 transition-all py-3 px-7 rounded-full text-white mt-10 font-semibold">
-            <Link href="https://drive.google.com/file/d/1SWFrvxr75S9OtIaRwMxrl_jiDGkN3sG-/view?usp=sharing">
+            <Link href="https://drive.google.com/file/d/13y4yY0Wv-hpBPWqFhic07Y-7kib5eBXl/view?usp=sharing">
               Download Resume
             </Link>
           </button>
