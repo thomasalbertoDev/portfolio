@@ -39,14 +39,14 @@ export default function ExperienceView() {
           .slice(0, numExperienceToShow)
           .map((exp: any, index: any) => (
             <div key={index}>
-              <div className="flex items-center justify-between">
-                <h1 className="text-xl font-bold">{exp.title}</h1>
+              <div className="md:flex block items-center justify-between">
+                <h1 className="text-xl font-bold md:mb-0 mb-3">{exp.title}</h1>
                 <span className="italic text-blue-500 font-semibold">
                   {exp.company}
                 </span>
               </div>
               <span className="italic mt-5 text-sm">{exp.date}</span>
-              <ul className="space-y-1 list-disc list-inside mt-6 marker:text-blue-500 text-justify leading-loose">
+              <ul className="space-y-1 list-disc list-inside mt-6 marker:text-blue-500  leading-loose">
                 {exp.data.map((item: any) => (
                   <li key={item.id}>{item.description}</li>
                 ))}

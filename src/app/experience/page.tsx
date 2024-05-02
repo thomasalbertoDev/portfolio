@@ -1,7 +1,7 @@
 'use client';
 
 import Layouts from '../layouts/layouts';
-import ExperienceView from '../views/experience/experience';
+import ExperienceView from '../views/experience';
 
 export default function Experience() {
   return (

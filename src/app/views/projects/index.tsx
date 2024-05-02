@@ -42,10 +42,10 @@ export default function ProjectsView() {
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 mt-10">
         {projects.slice(0, numProjectsToShow).map((project: any) => (
           <div key={project.id}>
-            <div className="rounded-xl bg-gray-900 p-8 h-auto">
-              <div className="flex items-center justify-between mb-6">
+            <div className="rounded-xl bg-gray-900 p-6 h-auto">
+              <div className="md:flex items-center justify-between mb-6">
                 <h1 className="text-2xl font-semibold">{project.title}</h1>
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-2 md:mt-0 mt-3">
                   <Link
                     className="pointer-events-none lg:pointer-events-auto lg:p-0"
                     href={project.urlGithub}

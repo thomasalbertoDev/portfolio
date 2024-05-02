@@ -2,9 +2,9 @@
 
 import Link from 'next/link';
 import Layouts from './layouts/layouts';
-import ProjectsView from './views/projects/projects';
-import TechStackView from './views/techstack/techstack';
-import ExperienceView from './views/experience/experience';
+import ProjectsView from './views/projects';
+import TechStackView from './views/techstack';
+import ExperienceView from './views/experience';
 
 export default function Home() {
   return (
@@ -30,7 +30,9 @@ export default function Home() {
             Cybersecurity.
           </p>
           <button className="bg-blue-600 hover:bg-blue-800 transition-all py-3 px-7 rounded-full text-white mt-10 font-semibold">
-            <Link href="#">Download Resume</Link>
+            <Link href="https://drive.google.com/file/d/1SWFrvxr75S9OtIaRwMxrl_jiDGkN3sG-/view?usp=sharing">
+              Download Resume
+            </Link>
           </button>
         </section>
 

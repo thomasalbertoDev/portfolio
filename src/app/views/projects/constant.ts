@@ -142,6 +142,33 @@ const projects: any = [
     urlGithub: 'https://github.com/xRiot45/geometry_calc',
     urlLinkedin: '#',
   },
+  {
+    id: 16,
+    title: 'TopUpGame',
+    description:
+      'TopUpGame is a top up and purchase web project, this website was created using HTML, CSS, and Tailwind CSS. This website was created to make it easier for gamers to top up games, purchase game vouchers, purchase game diamonds, purchase electricity tokens, etc.',
+    techStack: ['HTML', 'Tailwind CSS', 'CSS'],
+    urlGithub: '#',
+    urlLinkedin: '#',
+  },
+  {
+    id: 17,
+    title: 'Minipul ',
+    description:
+      'Minipul is a top up and purchase web project, this website was created using HTML, CSS, and Boo. This website was created to make it easier for gamers to top up games, purchase game vouchers, purchase game diamonds, purchase electricity tokens, etc. ',
+    techStack: ['HTML', 'Bootstrap', 'CSS'],
+    urlGithub: '#',
+    urlLinkedin: '#',
+  },
+  {
+    id: 18,
+    title: 'Digipages (Design UI / UX) ',
+    description:
+      'DigiPages is a startup that aims to provide solutions to the problem of the difficulty of getting products quickly and efficiently around us. This design is a mobile apps platform that allows users to find, order, and get items quickly.',
+    techStack: ['Figma'],
+    urlGithub: '#',
+    urlLinkedin: '#',
+  },
 ];
 
 export default projects;

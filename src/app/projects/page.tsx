@@ -1,7 +1,7 @@
 'use client';
 
 import Layouts from '../layouts/layouts';
-import ProjectsView from '../views/projects/projects';
+import ProjectsView from '../views/projects';
 
 export default function Projects() {
   return (
